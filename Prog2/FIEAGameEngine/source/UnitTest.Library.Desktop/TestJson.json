@@ -1,0 +1,99 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "Test"
+  },
+  "Health": {
+    "type": "integer",
+    "value": 100
+  },
+  "Damage": {
+    "type": "float",
+    "value": 100.0
+  },
+  "Direction": {
+    "type": "vector",
+    "value": "vec4(1,0,0,1)"
+  },
+  "Transform": {
+    "type": "matrix",
+    "value": "mat4x4((1,0,0,0),(0,1,0,0),(0,0,1,0),(0,0,0,1))"
+  },
+  "Aliases": {
+    "type": "string",
+    "value": [ "Bob", "Jim", "Fred" ]
+  },
+  "Address": {
+    "type": "table",
+    "class" : "AttributedFoo",
+    "value": {
+      "Street": {
+        "type": "string",
+        "value": "123 Anystreet St."
+      },
+      "City": {
+        "type": "string",
+        "value": "Orlando"
+      },
+      "Postal Code": {
+        "type": "table",
+        "class": "AttributedFoo",
+        "value": {
+          "Zip Code": {
+            "type": "integer",
+            "value": 12345
+          },
+          "Zip Code+4": {
+            "type": "integer",
+            "value": 6789
+          }
+        }
+      }
+    }
+  },
+  "EmptyNestedScopeArray": {
+    "type": "table",
+    "value": []
+  },
+  "Powers": {
+    "type": "table",
+    "value": [
+      {
+        "type": "table",
+        "class": "AttributedFoo",
+        "value": {
+          "ExternalInteger": {
+            "type": "integer",
+            "value": 100
+          },
+          "ExternalIntegerArray": {
+            "type": "integer",
+            "value": [ 100, 100, 100, 100, 100 ]
+          },
+          "Name": {
+            "type": "string",
+            "value": "Laser Vision"
+          },
+          "Dps": {
+            "type": "float",
+            "value": 1.5
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "AttributedFoo",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Freeze Breath"
+          },
+          "Dps": {
+            "type": "float",
+            "value": 3.0
+          }
+        }
+      }
+    ]
+  }
+}

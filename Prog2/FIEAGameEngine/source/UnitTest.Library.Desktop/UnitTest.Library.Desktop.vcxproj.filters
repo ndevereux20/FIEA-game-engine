@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SlistTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedFoo.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModuleInitialize.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedBar.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonIntegerParseHelper.cpp">
+      <Filter>Support Classes\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTestParseHelper.cpp">
+      <Filter>Support Classes\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseCoordinatorTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTableParseHelperTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSubscribers.cpp">
+      <Filter>Support Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringOverload.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedFoo.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedBar.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonIntegerParseHelper.h">
+      <Filter>Support Classes\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTestParseHelper.h">
+      <Filter>Support Classes\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscribers.h">
+      <Filter>Support Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Support Classes">
+      <UniqueIdentifier>{612b3906-ebff-4544-ad8f-d3613bcef5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{e8479812-d021-4f4e-aa6b-527f12284abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Classes\JSON">
+      <UniqueIdentifier>{bf975f18-09cd-4feb-8eb2-b89ccc1ff55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{a5230d2c-7d21-4bac-8eff-18756a39b71e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestJson.json">
+      <Filter>Support Classes\JSON</Filter>
+    </None>
+    <None Include="TestGameObject.json">
+      <Filter>Support Classes\JSON</Filter>
+    </None>
+    <None Include="TestActionJson.json">
+      <Filter>Support Classes\JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
